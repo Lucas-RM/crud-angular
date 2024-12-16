@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+}
+
+table :where(tr:nth-child(odd) :not(th)) {
+    background-color: #e7e7fa;
+}
+
+table th {
+    background: linear-gradient(to top, #F7F7FF, transparent 80%);
+    color: #000000B3;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: transparent;
+}
+
+.edit {
+    margin-right: 10px;
+}
+
+.edit > i {
+    color: #e07e3d;
+}
+
+.delete > i {
+    color: #a33b28;
+}
